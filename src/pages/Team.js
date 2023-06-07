@@ -26,6 +26,8 @@ role="coordinator"
 class="2023"
 major="Biology"
 email="email@email"
+quote="If you want to lift yourself up, lift up someone else."
+credit = "Booker T. Washington"
 />
 <TeamCard
 name = "Case"
@@ -34,6 +36,8 @@ role="coordinator"
 class="2023"
 major="Biology"
 email="email@email"
+quote="When we choose to trust the journey and embrace love and joy, we are free to fly"
+credit = "Anniken R. Day"
 />
 <TeamCard
 name = "Ashwin"
@@ -42,6 +46,8 @@ role="coordinator"
 class="2023"
 major="Biology"
 email="email@email"
+quote="Believe in your infinite potential. Your only limitations are those you set upon yourself."
+credit = "Roy T. Bennett"
 />
 <TeamCard
 name = "Rob"
@@ -50,6 +56,8 @@ role="coordinator"
 class="2023"
 major="Biology"
 email="email@email"
+quote="Education is the most powerful weapon which you can use to change the world"
+credit = "Nelson Mandela"
 />
 <TeamCard
 name = "Shervin"
@@ -58,6 +66,8 @@ role="coordinator"
 class="2023"
 major="Biology"
 email="email@email"
+quote="Develop a passion for learning. If you do, you will never cease to grow."
+credit = "Anthony J. D'Angelo"
 />
 
 </div>

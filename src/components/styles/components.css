@@ -77,9 +77,112 @@ border: 1.5px solid #029bdc;
   }
 
   .teamCard {
-    height:200px;
+    /* height:200px; */
   }
 
   .teamHeadshotImage {
     height: 400px;
   }
+
+  .teamCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 20px 20px 0 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    background-color: #029bdc;
+    color: white;
+    margin:30px;
+
+  }
+  
+  .teamCardName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .teamCardImageContainer {
+    width: 140px;
+    height: 170px;
+    clip-path: ellipse(50% 50% at 50% 50%);
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .teamCardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .teamCardRole {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+ 
+
+.teamCardPanels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.teamCardDetails {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.teamCardDetail {
+  margin-bottom: 5px;
+}
+
+.teamCardDetailLabel {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.teamCardQuoteContainer {
+  /* display: flex; */
+  align-items: center;
+  margin-top: 10px;
+  background-color: #f6f4f2;
+  padding:10px;
+  bottom:0;
+}
+
+.leftQuote {
+  font-size: 24px;
+  margin-right: 245px;
+  color:#029bdc;
+}
+
+.teamCardQuote {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  width:220px;
+  margin:auto;
+  color:#029bdc;
+  border-radius: 4px;
+  
+}
+
+.rightQuote {
+  font-size: 24px;
+  margin-left: 245px;
+  color:#029bdc;
+}
+
+.credit {
+  color:#029bdc;
+}
