@@ -20,55 +20,57 @@ return (
 <p className = "pageTitle">TEAM</p>
 <div className = "teamPage">
 <TeamCard
-name = "alan"
-img = {Alan}
-role="coordinator"
+name = "Shervin Eskandari"
+img = {Shervin}
+role="President"
 class="2023"
 major="Biology"
-email="email@email"
+email="Shervin.Eskandari@uga.edu"
+quote="Develop a passion for learning. If you do, you will never cease to grow."
+credit = "Anthony J. D'Angelo"
+/>
+<TeamCard
+name = "Alan Wu"
+img = {Alan}
+role="Vice President"
+class="2023"
+major="Biology"
+email="Alan.Wu@uga.edu"
 quote="If you want to lift yourself up, lift up someone else."
 credit = "Booker T. Washington"
 />
 <TeamCard
-name = "Case"
-img = {Case}
-role="coordinator"
-class="2023"
-major="Biology"
-email="email@email"
-quote="When we choose to trust the journey and embrace love and joy, we are free to fly"
-credit = "Anniken R. Day"
-/>
-<TeamCard
-name = "Ashwin"
-img = {Ashwin}
-role="coordinator"
-class="2023"
-major="Biology"
-email="email@email"
-quote="Believe in your infinite potential. Your only limitations are those you set upon yourself."
-credit = "Roy T. Bennett"
-/>
-<TeamCard
-name = "Rob"
+name = "Robel Yohannes"
 img = {Rob}
-role="coordinator"
+role="Event Coordinator"
 class="2023"
 major="Biology"
-email="email@email"
+email="Robel.Yohannes@uga.edu"
 quote="Education is the most powerful weapon which you can use to change the world"
 credit = "Nelson Mandela"
 />
+
 <TeamCard
-name = "Shervin"
-img = {Shervin}
-role="coordinator"
+name = "Case Condon"
+img = {Case}
+role="Treasurer"
 class="2023"
-major="Biology"
-email="email@email"
-quote="Develop a passion for learning. If you do, you will never cease to grow."
-credit = "Anthony J. D'Angelo"
+major="Management Information Systems"
+email="Case.condon@uga.edu"
+quote="When we choose to trust the journey and embrace love and joy, we are free to fly."
+credit = "Anniken R. Day"
 />
+<TeamCard
+name = "Ashwin Gidwani"
+img = {Ashwin}
+role="Secretary"
+class="2023"
+major="Management Information Systems"
+email="Ashwin.gidwani@uga.edu"
+quote="Believe in your infinite potential. Your only limitations are those you set upon yourself."
+credit = "Roy T. Bennett"
+/>
+
 
 </div>
 </div>

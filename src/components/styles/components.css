@@ -139,7 +139,7 @@ border: 1.5px solid #029bdc;
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   margin-bottom: 10px;
   padding-bottom: 150px; 
 }
@@ -149,8 +149,7 @@ border: 1.5px solid #029bdc;
 }
 
 .teamCardDetailLabel {
-  font-weight: bold;
-  margin-right: 5px;
+  font-style: italic;
 }
 
 .teamCardQuoteContainer {
@@ -194,4 +193,11 @@ border: 1.5px solid #029bdc;
 
 .credit {
   color:#029bdc;
+}
+
+.lineCards {
+  /* margin-right: 20px; */
+margin-top: 10px;
+width: 120px;
+border: 1px solid #f6f4f2;
 }
