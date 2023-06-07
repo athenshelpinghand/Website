@@ -1,0 +1,57 @@
+.getInvolvedContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* height: 100vh; */
+  }
+  
+  .formBack {
+    background-color: #029bdc;
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .formBack button {
+    color: #029bdc;
+    background-color: #f6f4f2;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .formBack label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #f6f4f2;
+  }
+  
+  .nameForm,
+  .emailForm,
+  .messageForm {
+    margin-bottom: 20px;
+  }
+  
+  .nameForm input,
+  .emailForm input,
+  .messageForm textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    max-width: 280px;
+  }
+  
+  .nameForm input:focus,
+  .emailForm input:focus,
+  .messageForm textarea:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+  

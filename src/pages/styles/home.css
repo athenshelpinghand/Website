@@ -1,0 +1,59 @@
+.home {
+    margin:auto;
+    background:  radial-gradient(ellipse at center, #8fc0e8 60%, #029bdc 100%);
+    display: flex;
+    flex-direction: row;
+    min-height:100vh;
+    max-width: 100vw;
+    align-items: center;
+    background: #8fc0e8; 
+}
+
+
+  
+ .transition-done {
+    background: radial-gradient(ellipse at center, #8fc0e8 70%, #029bdc 100%);
+    transition: background-image 1s;
+    
+  }
+
+.rightSide {
+display: flex;
+margin: auto auto auto 0
+}
+
+.leftSide {
+display: flex;
+margin-right:30px;
+margin-left:auto;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+.logoHome {
+    transition: transform 1s ease-in-out;
+    transform: scale(1.8); /* normal size */
+    margin-right:0;
+}
+
+.zoom-out {
+    transform: scale(1); /* change this to the size you want when zoomed out */
+  }
+  .homePageLineBreak {
+    opacity: 0;
+    transition: opacity 1s;
+margin-left: 0;
+height: 200px;
+border: 1.5px solid #029bdc;
+  }
+
+
+  .navPane1 {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+ .fade-in {
+    opacity: 1;
+  }
