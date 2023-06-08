@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   min-height:100vh;
-  /* background: linear-gradient(to bottom, #8fc0e8, #029bdc); */
+
   background-color: #8fc0e8;
+  
   font-family: 'Fredoka', sans-serif;
 }
 
