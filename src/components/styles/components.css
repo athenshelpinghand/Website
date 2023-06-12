@@ -151,6 +151,12 @@ border: 1.5px solid #029bdc;
     font-weight: bold;
     margin-bottom: 5px;
   }
+
+  .role {
+    font-style: italic;
+    margin:0;
+    font-size: 14px;
+  }
   
  
 
@@ -176,6 +182,7 @@ border: 1.5px solid #029bdc;
 
 .teamCardDetailLabel {
   font-style: italic;
+  margin:10px;
 }
 
 .teamCardQuoteContainer {

@@ -15,10 +15,11 @@ const TeamCard = (props) => {
       </div>
       
       <div className="teamCardName">{props.name}</div>
+      <p className="role">{props.role}</p>
       <div className='lineCards'/>
         <div className="teamCardDetails">
         <div className="">
-            <p className="">{props.role}</p>
+    
           </div>
           <div className="">
             <p className="teamCardDetailLabel">Class of {props.class}</p>
