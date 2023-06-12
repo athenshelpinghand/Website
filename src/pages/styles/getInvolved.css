@@ -88,3 +88,21 @@
 
     
   }
+
+  @media only screen and (min-width: 600px) and (max-width: 860px) {
+
+
+    .pageTitleGI {
+      /* position:relative; */
+      text-align: left;
+      font-size: 45px;
+    width:200px;
+      margin-top: 0;
+      margin-left: 20px;
+    
+      color:#f6f4f2;
+    }
+    
+
+    
+  }
