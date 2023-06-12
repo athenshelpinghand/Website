@@ -273,3 +273,24 @@ height:90px;
   }
 
 }
+
+
+@media only screen and (max-width: 600px) {
+  .teamCardQuote {
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    width:200px;
+    margin:auto;
+    color:#029bdc;
+    border-radius: 4px;
+    
+  }
+  .rightQuote {
+    font-size: 24px;
+    margin-left: 175px;
+    color: #029bdc;
+}
+  
+
+}
