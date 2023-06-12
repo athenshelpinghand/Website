@@ -1,3 +1,17 @@
+.pageTitleGI {
+  /* position:relative; */
+  text-align: left;
+  font-size: 80px;
+
+  margin-top: 0;
+  margin-left: 20px;
+
+  color:#f6f4f2;
+}
+
+
+
+
 .getInvolvedContent {
     display: flex;
     justify-content: center;
@@ -55,3 +69,22 @@
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   }
   
+
+
+  @media only screen and (max-width: 600px) {
+
+
+    .pageTitleGI {
+      /* position:relative; */
+      text-align: left;
+      font-size: 45px;
+    width:200px;
+      margin-top: 0;
+      margin-left: 20px;
+    
+      color:#f6f4f2;
+    }
+    
+
+    
+  }

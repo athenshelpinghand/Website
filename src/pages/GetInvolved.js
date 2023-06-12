@@ -33,7 +33,7 @@ return (
 
 <div className="">
 <Header activePage = "involved"/>
-<p className = "pageTitle">GET INVOLVED</p>
+<p className = "pageTitleGI">GET INVOLVED</p>
 
 <div className = "getInvolvedContent">
 <form

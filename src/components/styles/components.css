@@ -28,7 +28,33 @@
     color: #029bdc;
   }
 
+
+  @media only screen and (max-width: 600px) {
+    .navPane {
+      /* height:300px;
+      width:200px;
+      background: #f6f4f2;
+      border: 1px solid #000000;
+      border-radius: 4px;
+     */
+     width:100vw;
+     margin: auto;
+     text-align: center;
+  }
+  
+  
+  .navItemPane {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 20px;
+      padding:10px
+  
+  }
+  }
+
+
 /* CSS for Header.js */
+
+
 .header {
     height: 300px;
     position: absolute;
@@ -200,4 +226,50 @@ border: 1.5px solid #029bdc;
 margin-top: 10px;
 width: 120px;
 border: 1px solid #f6f4f2;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .header {
+    height: 200px;
+    position: absolute;
+    right:0;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.navItemHeader {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    padding:10px;
+    text-align: right;
+
+}
+
+.HeaderLineBreak {
+
+margin-right: 0px;
+margin-top: 10px;
+border: 1.5px solid #029bdc;
+height:90px;
+
+}
+
+.linkActive {
+    text-decoration-color: #029bdc;
+    color: #f6f4f2;
+  
+  }
+  
+.headerLogo {
+    /* height:80px;
+    margin-top: 30px;
+    margin-right: 10px; */
+    opacity: 0;
+    width:0px;
+  }
+
 }

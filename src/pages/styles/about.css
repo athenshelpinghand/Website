@@ -109,3 +109,37 @@
     color: #ffffff;
     text-align: center;
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .pageTitle {
+        /* position:relative; */
+        text-align: left;
+        font-size: 50px;
+      
+        margin-top: 0;
+        margin-left: 20px;
+     
+        color:#f6f4f2;
+    }
+
+
+    .textImage {
+        color: #ffffff;
+        text-align: center;
+        font-size: 9px;
+        
+      }
+
+      .textOverlay {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+      }
+      
+
+}
