@@ -92,12 +92,14 @@ border: 1.5px solid #029bdc;
       .rightSide {
         /* display: flex; */
         margin-top:10px;
+        z-index: 2;
         }
 
         .logoHome {
           transition: transform 1s ease-in-out;
           transform: scale(1.8); /* normal size */
           margin-right:0;
+          z-index: 0;
       }
       .zoom-out {
         transform: scale(1); /* change this to the size you want when zoomed out */
@@ -105,6 +107,10 @@ border: 1.5px solid #029bdc;
 
       img {
         height:300px;
+      }
+
+      .zStuff {
+        z-index: 1;
       }
 
       .transition-done {

@@ -40,7 +40,7 @@ function Home() {
       <div className = {`homePageLineBreak ${transitionDone ? 'fade-in' : ''}`}/>
       <div className="rightSide">
       <div className={`navPane1 ${transitionDone ? 'fade-in' : ''}`}>
-        <NavPane />
+        <NavPane className = "zStuff" />
       </div>
       </div>
     </div>
